@@ -1,0 +1,65 @@
+@import '../base'
+
+.main-menu
+  font-size  15px
+
+  &__item
+    color $linkColor
+    position relative
+    padding-left 30px
+    line-height 40px
+
+    &:before
+      background:  linear-gradient(145deg, rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 40%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%)
+
+    &:before, &:after
+      content ""
+      display block
+      width 12px
+      height 12px
+      position absolute
+      left: 0;
+      top: 50%;
+      margin-top: -8px;
+      border-radius 16px
+      overflow hidden
+      border 2px solid #f6f6f6
+
+
+    &:after
+
+      border 2px solid transparent
+
+    &:hover
+      &:before, &:after
+        width 18px
+        height 18px
+        margin-top: -11px;
+        margin-left -3px
+        border-radius 22px
+
+  &__item-wrp
+    min-width 128px
+    display inline-block
+    vertical-align top
+
+.main-menu__item_col_pers-green
+  &:before
+    background-color #158f93
+
+.main-menu__item_col_jazz-jem
+  &:before
+    background-color #d01d74
+
+.main-menu__item_col_deep-or-ye
+  &:before
+    background-color #e16a00
+
+.main-menu__item_col_mus-green
+  &:before
+    background-color #179d18
+
+.main-menu__item_col_purple-heart
+  &:before
+    background-color #514bd6
+
