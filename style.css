@@ -199,12 +199,25 @@ audio:not([controls]),
 [hidden] {
   display: none;
 }
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
 html {
   height: 100%;
   position: relative;
 }
 body {
   background-color: #3c3c3c;
+  color: #3c3c3c;
   width: 100%;
   height: 100%;
   font: 12px Tahoma, Geneva, sans-serif;
@@ -223,10 +236,10 @@ body {
   height: 7px;
   border-top: 1px solid #ebebeb;
   background-color: #80a823;
-  background: -webkit-linear-gradient(top, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
-  background: -moz-linear-gradient(top, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
-  background: -o-linear-gradient(top, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
-  background: -ms-linear-gradient(top, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
+  -webkit-background: linear-gradient(to bottom, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
+  -moz-background: linear-gradient(to bottom, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
+  -ms-background: linear-gradient(to bottom, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
+  -o-background: linear-gradient(to bottom, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
   background: linear-gradient(to bottom, #a3ba68 0%, #9ec149 17%, #95c130 33%, #8dbf20 50%, #83b60f 67%, #83b50b 83%, #80a823 100%);
 }
 .bg-grad:after {
@@ -239,10 +252,10 @@ body {
   height: 435px;
   border-top: 1px solid #ebebeb;
   background-color: #606060;
-  background: -webkit-linear-gradient(top, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
-  background: -moz-linear-gradient(top, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
-  background: -o-linear-gradient(top, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
-  background: -ms-linear-gradient(top, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
+  -webkit-background: linear-gradient(to bottom, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
+  -moz-background: linear-gradient(to bottom, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
+  -ms-background: linear-gradient(to bottom, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
+  -o-background: linear-gradient(to bottom, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
   background: linear-gradient(to bottom, #606060 0%, #5e5e5e 34%, #585858 46%, #454545 65%, #3f3f3f 75%, #3c3c3c 100%);
 }
 .wrapper {
@@ -255,6 +268,18 @@ body {
 }
 /* Header
 -----------------------------------------------------------------------------*/
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
 .header {
   min-height: 185px;
   position: relative;
@@ -291,6 +316,18 @@ body {
 .header__info {
   margin: 84px 0 0;
 }
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
 .logo {
   display: block;
   background: #000;
@@ -311,6 +348,18 @@ body {
 }
 .logo__img {
   width: 100%;
+}
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
 }
 .main-menu {
   font-size: 15px;
@@ -381,6 +430,18 @@ body {
 .main-menu__item_col_purple-heart:before {
   background-color: #514bd6;
 }
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
 .info {
   display: block;
   font: 13px arial, sans-serif;
@@ -400,6 +461,15 @@ body {
   float: left;
   position: relative;
   overflow: hidden;
+  border-left: 1px solid #565757;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.info__item:first-child {
+  border-left: none;
 }
 .info__item_type_left {
   background: #565757 url("images/sprite-images.png") 39px 13px no-repeat;
@@ -426,10 +496,6 @@ body {
   -o-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px 12px;
-  -webkit-transition: top 1s ease-out 0.5s;
-  -moz-transition: top 1s ease-out 0.5s;
-  -ms-transition: top 1s ease-out 0.5s;
-  -o-transition: top 1s ease-out 0.5s;
   -webkit-transition: top 1s ease-out 0.5s;
   -moz-transition: top 1s ease-out 0.5s;
   -ms-transition: top 1s ease-out 0.5s;
@@ -466,14 +532,117 @@ body {
   overflow: hidden;
 }
 .content {
-  padding: 0 270px 0 0;
+  margin: 0 227px 0 0;
+  background: #bcbcbc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.content__header {
+  padding: 10px 0 5px;
+}
+.content__item {
+  margin-bottom: 35px;
+}
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+.list {
+  margin: 7px 0;
+}
+.list__item {
+  padding: 3px 0;
+  margin-left: 17px;
+}
+.list__item:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background: url("images/sprite-images.png") no-repeat 0 -211px;
+  margin-right: 7px;
+  margin-left: -17px;
+}
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+.slogan {
+  padding: 29px 0 34px;
+}
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+.btn-set {
+  margin: 13px 0;
+  text-align: right;
+}
+.btn-set__button {
+  color: #fff;
+  font: bold 11px/18px Verdana, Helvetica, Arial, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border-top: 1px solid #81b900;
+  border-bottom: 1px solid #6d8e00;
+  border-left: none;
+  border-right: none;
+  padding: 0 15px;
+  background-color: #82b70f;
+  -webkit-background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  -moz-background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  -ms-background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  -o-background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  -webkit-box-shadow: 8px 0 5px -5px #6d8e00 inset;
+  -moz-box-shadow: 8px 0 5px -5px #6d8e00 inset;
+  -ms-box-shadow: 8px 0 5px -5px #6d8e00 inset;
+  -o-box-shadow: 8px 0 5px -5px #6d8e00 inset;
+  box-shadow: 8px 0 5px -5px #6d8e00 inset;
 }
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
 .right-sidebar {
   float: left;
-  width: 250px;
-  margin-left: -250px;
+  width: 205px;
+  margin-left: -205px;
   position: relative;
   background: #ffacaa;
 }

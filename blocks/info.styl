@@ -11,6 +11,11 @@
     float left
     position relative
     overflow hidden
+    border-left 1px solid #565757
+    box-sizing border-box
+
+    &:first-child
+      border-left none
 
     &_type_left
       background #565757 url("images/sprite-images.png") 39px 13px no-repeat
@@ -19,7 +24,7 @@
       background #3b3b3b url("images/sprite-images.png") -248px 13px no-repeat
 
     &_type_right
-      background #1f201f url("images/sprite-images.png") -535px 13px no-repeat
+      background #1f201f url($baseImgHref) -535px 13px no-repeat
 
   &__item-text
     letter-spacing -1px
@@ -33,7 +38,7 @@
     color #fff
     box-sizing border-box
     padding 10px 12px
-    vendor('transition', top 1s ease-out 0.5s)
+    transition top 1s ease-out 0.5s
 
     &:hover
       top 0
