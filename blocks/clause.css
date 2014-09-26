@@ -1,0 +1,29 @@
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+.btn-set {
+  margin: 13px 0;
+  text-align: right;
+}
+.btn-set__button {
+  color: #fff;
+  font: bold 11px/18px Verdana, Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  border-top: 1px solid #81b900;
+  border-bottom: 1px solid #6d8e00;
+  border-left: none;
+  border-right: none;
+  padding: 0 15px;
+  background-color: #82b70f;
+  background: linear-gradient(to bottom, #a2cc46 0%, #99c333 18%, #8ab51d 35%, #7aa901 41%, #6e8f00 100%);
+  box-shadow: 8px 0 5px -5px #6d8e00 inset;
+}
