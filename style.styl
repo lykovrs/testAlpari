@@ -80,7 +80,8 @@ body
 .container
   width 100%
   float left
-  overflow hidden
+  /*overflow hidden*/
+  margin-bottom: -42px;
 
 .content
   margin 0 227px 0 0
@@ -88,6 +89,7 @@ body
   box-sizing border-box
   padding 10px 25px
   border-radius 10px
+  box-shadow 0 5px 5px 0 rgba(0,0,0,.75)
 
   &__header
     padding 10px 0 5px
@@ -98,6 +100,8 @@ body
 @import 'blocks/list.styl'
 @import 'blocks/slogan.styl'
 @import 'blocks/btn-set.styl'
+@import 'blocks/clause.styl'
+@import 'blocks/spoiler.styl'
 
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
@@ -111,9 +115,20 @@ body
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer
-  width 862px
+  /*width 862px*/
   margin -147px auto 0
   height 147px
-  background #BFF08E
+  min-width: 900px
+  background #959595
   position relative
+  box-sizing border-box
+  border-top 2px solid #666666
+  z-index -1
+
+  &__content
+    margin 50px auto 30px
+    text-align center
+    width 800px
+    color #cfcfcf
+
 

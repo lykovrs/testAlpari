@@ -1,0 +1,25 @@
+@import '../base'
+
+.spoiler__show,
+.spoiler__hide
+  border-bottom 1px dashed
+  cursor pointer
+
+.spoiler__hide,
+.spoiler__content
+  display none
+
+.spoiler__controller
+  display none
+
+  &:checked + label .spoiler__show
+    display none
+
+  &:checked + label .spoiler__hide
+    display inline
+
+  &:checked ~ .spoiler__content
+    display block
+    height auto
+
+
