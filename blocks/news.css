@@ -1,0 +1,18 @@
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+.news__item {
+  padding-top: 10px;
+}
+.news__date {
+  color: #fff;
+}

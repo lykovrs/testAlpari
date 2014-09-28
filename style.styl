@@ -72,6 +72,7 @@ body
   width 100%
   padding 0 0 147px
   position relative
+
   &:after
     display table
     clear both
@@ -80,7 +81,6 @@ body
 .container
   width 100%
   float left
-  /*overflow hidden*/
   margin-bottom: -42px;
 
 .content
@@ -89,7 +89,8 @@ body
   box-sizing border-box
   padding 10px 25px
   border-radius 10px
-  box-shadow 0 5px 5px 0 rgba(0,0,0,.75)
+  box-shadow $shadow
+  position relative
 
   &__header
     padding 10px 0 5px
@@ -102,33 +103,38 @@ body
 @import 'blocks/btn-set.styl'
 @import 'blocks/clause.styl'
 @import 'blocks/spoiler.styl'
+@import 'blocks/modal.styl'
+
 
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
 .right-sidebar
   float left
-  width 205px
-  margin-left -205px
+  width 195px
+  margin-left -203px
   position relative
-  background #FFACAA
+
+@import 'blocks/news.styl'
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer
-  /*width 862px*/
   margin -147px auto 0
   height 147px
   min-width: 900px
   background #959595
-  position relative
   box-sizing border-box
   border-top 2px solid #666666
   z-index -1
 
   &__content
-    margin 50px auto 30px
+    margin 80px auto 30px
     text-align center
     width 800px
     color #cfcfcf
+    font 11px $baseTahoma
+    text-shadow 1px 1px #666666
+    position relative
+
 
 

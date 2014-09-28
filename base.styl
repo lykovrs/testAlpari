@@ -8,6 +8,7 @@ $grey = #bcbcbc
 $lightGrey = #e0e0e0
 $shadow = #7f7f7f
 
+$shadow = 0 5px 5px 0 rgba(0,0,0,.75)
 
 $linkColor = #82b70f
 $bgColor = #3c3c3c
@@ -26,7 +27,8 @@ h3
   color: $bgColor;
   font: bold 14px/22px $baseTahoma;
 
-
+a
+  color $linkColor
 
 vendor(prop, args)
   -webkit-{prop} args
@@ -35,10 +37,11 @@ vendor(prop, args)
   -o-{prop} args
   {prop} args
 
-/*border-radius()*/
-  /*vendor('border-radius', arguments)*/
+.left
+  float left
 
-/*background-image()*/
-  /*vendor('background-image', arguments)*/
+.right
+  float right
 
-
+.clearfix
+  clearfix()

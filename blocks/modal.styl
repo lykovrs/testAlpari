@@ -1,0 +1,67 @@
+@import '../base'
+
+.modal 
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+  display none
+  pointer-events none
+
+  &:target
+    display block
+    pointer-events auto
+
+  &__content
+    width 390px
+    position relative
+    margin 19% auto
+    background #fff
+    border-radius 3px
+    box-shadow $shadow
+    overflow hidden
+    z-index 1000
+
+
+  &__close
+    position absolute
+    right 2px
+    top 1px
+    width 18px
+    height 18px
+    border none
+    border-radius 6px
+    background #c8630a linear-gradient(to bottom, #fea203 0%,#f19205 24%,#c8630a 71%,#b44b0c 100%)
+    font-weight bold
+    color #fff
+    font-size 18px
+    text-shadow 0 -1px #000000
+    letter-spacing 0
+    text-align center
+    line-height 16px
+    padding 0
+    z-index 1
+    text-decoration none
+
+  &__title
+    background #565757
+    color #fff
+    font bold 12px/20px $baseTahoma
+    padding 0 24px
+    position relative
+
+  &__inner
+    padding 25px 25px 10px
+
+  &__input
+    border 1px solid #cccccc
+    border-radius 5px
+    background linear-gradient(to bottom, #ced0d0 0%,#dddede 5%,#e7e7e6 10%,#f4f3f3 19%,#f7f6f6 24%,#fbfafa 33%,#fefefe 100%)
+    height 22px
+    width 190px
+    padding 0 5px
+
+  &__row
+    line-height 24px
+    margin-bottom 14px
