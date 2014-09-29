@@ -22,33 +22,7 @@ body
   height 100%
   font 12px $baseTahoma
 
-.bg-grad
-  position relative
-  min-width 900px
-
-  &:before
-    z-index 0
-    content ""
-    position absolute
-    left 0
-    right 0
-    top 0
-    height 7px
-    border-top 1px solid #ebebeb
-    background-color #80a823
-    background linear-gradient(to bottom, #a3ba68 0%,#9ec149 17%,#95c130 33%,#8dbf20 50%,#83b60f 67%,#83b50b 83%,#80a823 100%)
-
-  &:after
-    z-index -1
-    content ""
-    position absolute
-    left 0
-    right 0
-    top 0
-    height 435px
-    border-top 1px solid #ebebeb
-    background-color #606060
-    background linear-gradient(to bottom, #606060 0%,#5e5e5e 34%,#585858 46%,#454545 65%,#3f3f3f 75%,#3c3c3c 100%)
+@import 'blocks/bg-grad.styl'
 
 .wrapper
   width 862px
@@ -91,6 +65,7 @@ body
   border-radius 10px
   box-shadow $shadow
   position relative
+  display block
 
   &__header
     padding 10px 0 5px

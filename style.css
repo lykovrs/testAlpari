@@ -242,6 +242,38 @@ body {
   height: 100%;
   font: 12px Tahoma, Geneva, sans-serif;
 }
+h1 {
+  color: #fff;
+  font: bold 24px/27px Georgia, serif;
+}
+h2 {
+  color: #fff;
+  font: bold 20px/24px Georgia, serif;
+}
+h3 {
+  color: #3c3c3c;
+  font: bold 14px/22px Tahoma, Geneva, sans-serif;
+}
+a {
+  color: #82b70f;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 .bg-grad {
   position: relative;
   min-width: 900px;
@@ -656,6 +688,7 @@ a {
   -o-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
   position: relative;
+  display: block;
 }
 .content__header {
   padding: 10px 0 5px;
